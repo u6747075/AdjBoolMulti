@@ -87,6 +87,6 @@ MM.W = function(mtr,mtr2=mtr,n){
 MM.N = function(mtr,n){
 
   rtn=mtr%^%n
-  rtn = as.numeric(rtn>=1)
-  return(matrix(rtn, byrow = F,nrow = nrow(mtr)))
+  rtn = (rtn>=1)
+  return(1*rtn)
 }
