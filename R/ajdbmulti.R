@@ -88,5 +88,5 @@ MM.N = function(mtr,n){
 
   rtn=mtr%^%n
   rtn = as.numeric(rtn>=1)
-  return(matrix(rtn, byrow = T,nrow = nrow(mtr)))
+  return(matrix(rtn, byrow = F,nrow = nrow(mtr)))
 }
