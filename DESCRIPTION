@@ -1,5 +1,5 @@
 Package: AdjBoolMulti
-Title: Calculate Adjacency/Boolean Matrix
+Title: Calculate Weighted Adjacency/Boolean Matrix
 Version: 0.0.1
 Authors@R: 
     person(given = "Mahiro",
