@@ -1,5 +1,5 @@
 
-#'Adjacency Matrix and Boolean Matrix Multiplication
+#'Weighted Adjacency Matrix and Boolean Matrix Multiplication
 #'
 #'This function calculates adjacency matrix or boolean matrix
 #'with desired power, "n". This function can have 2 matrices
