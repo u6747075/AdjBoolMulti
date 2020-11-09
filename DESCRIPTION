@@ -1,0 +1,23 @@
+Package: AdjBoolMulti
+Title: Calculate Adjacency/Boolean Matrix
+Version: 0.0.1
+Authors@R: 
+    person(given = "Mahiro",
+           family = "Y",
+           role = c("aut", "cre"),
+           email = "mahiro2000@gmail.com",
+           comment = "New R user")
+Description: has only one function (so far) which calculate
+    adjacency matrix and boolean matrix. This is useful for those 
+    who taking uni course related to these. For adjacency matrix calculation,
+    this is extreamely slow as it is 1000 times slower than normal multiplication
+    by 'expm' if you simulate it for 10,000. There is no problem about 
+    speed if you don't use it for huge iteration or recursion.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+  expm 
