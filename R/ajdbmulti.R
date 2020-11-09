@@ -18,7 +18,7 @@
 #' there is no problem about the speed as long as if you don't run huge iteration or
 #' recursion.
 #' @export
-
+pkg::"expm"
 mtrmulti = function(mtr,mtr2=mtr,n=2,type=1){
   isSquare = dim(mtr)[2]==dim(mtr2)[1]
   isNull = any(c(any(is.na(mtr)), any(is.na(mtr2))))
